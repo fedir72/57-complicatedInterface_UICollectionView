@@ -20,10 +20,10 @@ class MainTabbarController: UITabBarController {
         let flowVC = ListViewController()
         let compVC = CompositionalVC()
         
-        viewControllers = [
-            generateViewControllers(rootController: flowVC, title: "Flow", image:#imageLiteral(resourceName: "gallery")),
-            generateViewControllers(rootController: compVC, title: "Compositional", image:#imageLiteral(resourceName: "high_priority"))]
+        viewControllers = [ generateViewControllers(rootController: compVC, title: "Compositional", image:#imageLiteral(resourceName: "high_priority")),generateViewControllers(rootController: flowVC, title: "Flow", image:#imageLiteral(resourceName: "gallery"))]
     }
+    
+    
     //MARK: - func for generate vc
     private func generateViewControllers(rootController: UIViewController,title: String, image: UIImage) -> UIViewController {
         let navigationVC = UINavigationController(rootViewController: rootController)
@@ -31,4 +31,5 @@ class MainTabbarController: UITabBarController {
         navigationVC.tabBarItem.image = image
         return navigationVC
     }
+
 }
