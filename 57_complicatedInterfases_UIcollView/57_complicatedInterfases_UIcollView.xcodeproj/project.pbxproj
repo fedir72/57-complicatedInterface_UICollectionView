@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A32E688D24DC4E0300A1D046 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E688C24DC4E0300A1D046 /* FoodCell.swift */; };
+		A32E688F24DC4F1300A1D046 /* SelfConfiguringCell_Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E688E24DC4F1300A1D046 /* SelfConfiguringCell_Protocol.swift */; };
 		A374945424D99CB400E64F11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A374945324D99CB400E64F11 /* AppDelegate.swift */; };
 		A374945624D99CB400E64F11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A374945524D99CB400E64F11 /* SceneDelegate.swift */; };
 		A374945824D99CB400E64F11 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A374945724D99CB400E64F11 /* ListViewController.swift */; };
@@ -14,9 +16,13 @@
 		A374946024D99CB500E64F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A374945E24D99CB500E64F11 /* LaunchScreen.storyboard */; };
 		A374946824D9A11100E64F11 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A374946724D9A11100E64F11 /* MainTabbarController.swift */; };
 		A374946C24D9A51F00E64F11 /* CompositionalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A374946B24D9A51F00E64F11 /* CompositionalVC.swift */; };
+		A3AEF22324DB27CC00865225 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AEF22224DB27CC00865225 /* ThirdViewController.swift */; };
+		A3AEF22524DB2FC700865225 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AEF22424DB2FC700865225 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A32E688C24DC4E0300A1D046 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		A32E688E24DC4F1300A1D046 /* SelfConfiguringCell_Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell_Protocol.swift; sourceTree = "<group>"; };
 		A374945024D99CB400E64F11 /* 57_complicatedInterfases_UIcollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 57_complicatedInterfases_UIcollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A374945324D99CB400E64F11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A374945524D99CB400E64F11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +32,8 @@
 		A374946124D99CB500E64F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A374946724D9A11100E64F11 /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
 		A374946B24D9A51F00E64F11 /* CompositionalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalVC.swift; sourceTree = "<group>"; };
+		A3AEF22224DB27CC00865225 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		A3AEF22424DB2FC700865225 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +69,12 @@
 				A374945324D99CB400E64F11 /* AppDelegate.swift */,
 				A374945524D99CB400E64F11 /* SceneDelegate.swift */,
 				A374945724D99CB400E64F11 /* ListViewController.swift */,
+				A3AEF22224DB27CC00865225 /* ThirdViewController.swift */,
 				A374946B24D9A51F00E64F11 /* CompositionalVC.swift */,
 				A374946724D9A11100E64F11 /* MainTabbarController.swift */,
+				A3AEF22424DB2FC700865225 /* UserCell.swift */,
+				A32E688E24DC4F1300A1D046 /* SelfConfiguringCell_Protocol.swift */,
+				A32E688C24DC4E0300A1D046 /* FoodCell.swift */,
 				A374945C24D99CB500E64F11 /* Assets.xcassets */,
 				A374945E24D99CB500E64F11 /* LaunchScreen.storyboard */,
 				A374946124D99CB500E64F11 /* Info.plist */,
@@ -140,11 +152,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A32E688F24DC4F1300A1D046 /* SelfConfiguringCell_Protocol.swift in Sources */,
 				A374945824D99CB400E64F11 /* ListViewController.swift in Sources */,
+				A32E688D24DC4E0300A1D046 /* FoodCell.swift in Sources */,
 				A374945424D99CB400E64F11 /* AppDelegate.swift in Sources */,
 				A374946824D9A11100E64F11 /* MainTabbarController.swift in Sources */,
 				A374945624D99CB400E64F11 /* SceneDelegate.swift in Sources */,
+				A3AEF22324DB27CC00865225 /* ThirdViewController.swift in Sources */,
 				A374946C24D9A51F00E64F11 /* CompositionalVC.swift in Sources */,
+				A3AEF22524DB2FC700865225 /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

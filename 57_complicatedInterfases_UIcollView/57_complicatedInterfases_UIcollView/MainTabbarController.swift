@@ -19,8 +19,10 @@ class MainTabbarController: UITabBarController {
         
         let flowVC = ListViewController()
         let compVC = CompositionalVC()
+        let thirdVC = ThirdViewController()
         
-        viewControllers = [ generateViewControllers(rootController: compVC, title: "Compositional", image:#imageLiteral(resourceName: "high_priority")),generateViewControllers(rootController: flowVC, title: "Flow", image:#imageLiteral(resourceName: "gallery"))]
+        viewControllers = [ generateViewControllers(rootController: compVC, title: "Compositional", image:#imageLiteral(resourceName: "high_priority")),generateViewControllers(rootController: flowVC, title: "Flow", image:#imageLiteral(resourceName: "gallery")),
+        generateViewControllers(rootController: thirdVC, title: "AdvancedVC", image: #imageLiteral(resourceName: "layers"))]
     }
     
     
